@@ -18,6 +18,9 @@ class ViewController: UIViewController {
         // NS = Next Step
         NSUserDefaults.standardUserDefaults().setObject("iOS", forKey: "Platform")
         
+        let platform = NSUserDefaults.standardUserDefaults().objectForKey("Platform")
+        
+        
     }
 
 
