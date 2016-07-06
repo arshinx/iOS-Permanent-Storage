@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         // Print Data
         print(platform)
         
+        // Advanced ---
+        
+        // Store Array
+        let arr = ["Apple", "Facebook", "Microsoft", "Amazon"]
+        NSUserDefaults.standardUserDefaults().setObject(arr, forKey: "Array")
         
     }
 
