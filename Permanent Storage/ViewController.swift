@@ -32,6 +32,9 @@ class ViewController: UIViewController {
         let arr = ["Apple", "Facebook", "Microsoft", "Amazon"]
         NSUserDefaults.standardUserDefaults().setObject(arr, forKey: "Array")
         
+        // Retrieve Array
+        
+        
     }
 
 
