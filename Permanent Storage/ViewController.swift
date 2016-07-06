@@ -33,10 +33,12 @@ class ViewController: UIViewController {
         NSUserDefaults.standardUserDefaults().setObject(arr, forKey: "Array")
         
         // Retrieve Array
-        let retrievedArray = NSUserDefaults.standardUserDefaults().objectForKey("Array")
+        let retrievedArray = NSUserDefaults.standardUserDefaults().objectForKey("Array")! as! NSArray
         
         // Print
         print(retrievedArray)
+        
+        // Try For in loop for Array -> Errors -- Since iOS Saves this as type AnyObject
         
     }
 
