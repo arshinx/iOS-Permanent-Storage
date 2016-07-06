@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         NSUserDefaults.standardUserDefaults().setObject(arr, forKey: "Array")
         
         // Retrieve Array
-        
+        let retrievedArray = NSUserDefaults.standardUserDefaults().objectForKey("Array")
         
     }
 
