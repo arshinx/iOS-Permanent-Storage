@@ -39,6 +39,9 @@ class ViewController: UIViewController {
         print(retrievedArray)
         
         // Try For in loop for Array -> Errors -- Since iOS Saves this as type AnyObject
+        for item in retrievedArray {
+            print(item)
+        }
         
     }
 
