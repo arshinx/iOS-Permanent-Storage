@@ -35,6 +35,9 @@ class ViewController: UIViewController {
         // Retrieve Array
         let retrievedArray = NSUserDefaults.standardUserDefaults().objectForKey("Array")
         
+        // Print
+        print(retrievedArray)
+        
     }
 
 
