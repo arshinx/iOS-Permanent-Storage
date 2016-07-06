@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         NSUserDefaults.standardUserDefaults().setObject("iOS", forKey: "Platform")
         
         // Retrieve Data
-        let platform = NSUserDefaults.standardUserDefaults().objectForKey("Platform")
+        let platform = NSUserDefaults.standardUserDefaults().objectForKey("Platform")! as! String
         
         // Print Data
         print(platform)
