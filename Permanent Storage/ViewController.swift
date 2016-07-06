@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         let platform = NSUserDefaults.standardUserDefaults().objectForKey("Platform")
         
         // Print Data
+        print(platform)
         
         
     }
