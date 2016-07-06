@@ -15,10 +15,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // NS = Next Step
+        // Note: NS = Next Step
+        
+        // Store Data
         NSUserDefaults.standardUserDefaults().setObject("iOS", forKey: "Platform")
         
+        // Retrieve Data
         let platform = NSUserDefaults.standardUserDefaults().objectForKey("Platform")
+        
+        // Print Data
         
         
     }
